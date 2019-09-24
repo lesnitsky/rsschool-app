@@ -7,6 +7,7 @@ import { TaskResult } from './taskResult';
 import { CourseTask } from './courseTask';
 import { Student } from './student';
 import { Mentor } from './mentor';
+import { TaskOwner } from './taskOwner';
 import { Stage } from './stage';
 import { TaskChecker } from './taskChecker';
 import { TaskArtefact } from './taskArtefact';
@@ -28,6 +29,7 @@ export const models = [
   Mentor,
   Stage,
   Student,
+  TaskOwner,
   Registry,
   Task,
   TaskArtefact,
@@ -51,6 +53,7 @@ export {
   Mentor,
   Stage,
   Student,
+  TaskOwner,
   Registry,
   Task,
   TaskArtefact,

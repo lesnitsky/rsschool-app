@@ -60,6 +60,7 @@ export const getCourseTasks = (_: ILogger) => async (ctx: Router.RouterContext) 
       allowStudentArtefacts: (item.task as Task).allowStudentArtefacts,
       useJury: (item.task as Task).useJury,
       checker: item.checker,
+      taskOwner: item.taskOwner,
       taskCheckers: [],
       githubRepoName: (item.task as Task).githubRepoName,
       sourceGithubRepoUrl: (item.task as Task).sourceGithubRepoUrl,
